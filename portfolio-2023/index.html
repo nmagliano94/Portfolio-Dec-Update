@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Magliano Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Nick Magliano</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">HTML Email Developer</p>
+        <img src="img/header-pic.jpeg" alt="a picture playing drums" class="intro__img" />
+    </section>
+
+    <!-- My Services -->
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>HTML Email Development</h3>
+                <p>Build responsive HTML email templates for clients/marketing teams. Making campaign
+                    ideas come to life by working closely with 
+                    designers and marketers to ensure the emails display and function correctly so that subscribers can engage
+                    with it properly.</p>
+            </div>
+            <div class="service">
+                <h3>Email Testing</h3>
+                <p>Thorough testing done to make sure the email delivers high-quality, visually appealing, and functional campaigns. Testing through a service like Litmus ensures
+                    the email is rendering and functioning properly across all the most popular clients and devices.</p>
+            </div>
+            <div class="service">
+                <h3>Landing Pages</h3>
+                <p>Build a standalone web page that contacts/potential contacts can visit after clicking on a shared link in an email, capturing leads for your business.
+                    Made to be responsive across all devices and work properly on all major clients.
+                </p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">HTML Email Developer based out of NY/NJ</p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis non quibusdam doloribus ipsam quam,
+                excepturi facilis ab. Iusto deserunt nemo quae voluptas
+                commodi distinctio nam rem veritatis asperiores incidunt? Mollitia! Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Quis asperiores, expedita fugiat modi quaerat consequatur necessitatibus
+                aperiam nisi? Sunt laboriosam
+                ratione nostrum quis ut a sit, minus deserunt quod tempore.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero error saepe eius quia distinctio. Eveniet,
+                consequuntur minus officia placeat, atque,
+                perferendis nobis tempora quam sequi commodi reiciendis rerum quas nihil! Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Omnis perferendis sed,
+                suscipit vel itaque in inventore iure ipsum dignissimos nam neque voluptatibus sit modi,
+                provident tempora enim similique explicabo animi.</p>
+        </div>
+        <img src="img/about-pic-2.jpeg" alt="drumming picture" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle--work">A selection of my range of work</p>
+        <div class="container">
+            <div class="card-wrapper">
+                <div class="card-top">
+                    <img class="image1" src="img/stills.png" alt="stills email">
+                </div>
+                <div class="card-bottom">
+                    <span class="top-text">Stills: Newsletter</span><br>
+                    <button class="button1">View Full Email</button>
+                    <button class="button2">View Code</button>
+                </div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-top">
+                    <img class="image2" src="img/adidas (1).png" alt="stills email">
+                </div>
+                <div class="card-bottom">
+                    <span class="top-text">Adidas: Transactional</span><br>
+                    <button class="button1">View Full Email</button>
+                    <button class="button2">View Code</button>
+                </div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-top">
+                    <img class="image3" src="img/vicfirth.png" alt="stills email">
+                </div>
+                <div class="card-bottom">
+                    <span class="top-text">Vic Firth: Promotional</span><br>
+                    <button class="button1">View Full Email</button>
+                    <button class="button2">View Code</button>
+                </div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-top">
+                    <img class="image4" src="img/real-estate (1).png" alt="stills email">
+                </div>
+                <div class="card-bottom">
+                    <span class="top-text">Real Estate</span><br>
+                    <button class="button1">View Full Email</button>
+                    <button class="button2">View Code</button>
+                </div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-top">
+                    <img class="image5" src="img/g-suite.png" alt="stills email">
+                </div>
+                <div class="card-bottom">
+                    <span class="top-text">G Suite: Transactional</span><br>
+                    <button class="button1">View Full Email</button>
+                    <button class="button2">View Code</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+  <div class="hero">
+
+<form>
+    <div class="input-group">
+        <input type="text" id="name" required>
+        <label for="name">Your Name</label>
+    </div>
+    <div class="input-group">
+        <input type="text" id="number">
+        <label for="number">Phone No.</label>
+    </div>
+    <div class="input-group">
+        <input type="text" id="email" required>
+        <label for="email">Email</label>
+    </div>
+    <div class="input-group">
+        <textarea id="message" rows="8"></textarea>
+        <label for="message">Your Message</label>
+    </div>
+  <button type="submit" class="form-btn">SUBMIT</button>
+</form>
+  </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:nick.magliano@aol.com" class="footer-link">nick.magliano@aol.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io">
+                    <i class='bx bxl-codepen'></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </li>
+            <li class="social-list__item"><a class="social-list__link" href="https://linkedin.com">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
